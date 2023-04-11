@@ -1,0 +1,13 @@
+{
+    "name": "Firefly downloader",
+    "version": "1.0.0",
+    "description": "Download images from Firefly without watermark",
+    "manifest_version": 3,
+    "author": "Jxona",
+    "content_scripts": [
+        {
+          "matches": ["https://firefly.adobe.com/*"],
+          "js": ["script.js"]
+        }
+    ]
+}
